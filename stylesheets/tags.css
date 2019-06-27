@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+html, body {
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
+hr {
+    margin: 10px;
+    height: 1px;
+    color: #FFFFFF;
+    background-color: whitesmoke;
+    border: none;
+    width: 90%;
+    align-self: center;
+}
+
+a.moving-button {
+    position: absolute;
+    left: -205px;
+    transition: .5s;
+    padding: 15px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    z-index: 2;
+}
+
+a#new-post:hover {
+    transition: .3s;
+    color: lightgray;
+}
