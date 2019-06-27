@@ -1,5 +1,3 @@
-const smalltalk = require('smalltalk')
-
 function newPost() {
     const postContainer = document.getElementById('post-container')
 
