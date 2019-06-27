@@ -23,23 +23,41 @@
             <div id="artist-list">
                     <input type="text" placeholder="Search...">
                 <div id="artist">
-                    <img src="./avatar_icons/travis_scott.jpg" alt="Avatar" class="avatar">
+                    <img src="./avatar_icons/travis_scott.jpg" alt="TS" class="avatar">
                     <p id="artist-name"><a>Travis Scott</a></p>
                 </div>
                 <div id="artist">
-                    <img src="./avatar_icons/denzel_curry.jpg" alt="Avatar" class="avatar">
+                    <img src="./avatar_icons/denzel_curry.jpg" alt="DC" class="avatar">
                     <p id="artist-name"><a>Denzel Curry</a></p>
                 </div>
                 <div id="artist">
-                    <img src="./avatar_icons/mac_miller.jpg" alt="Avatar" class="avatar">
+                    <img src="./avatar_icons/mac_miller.jpg" alt="MM" class="avatar">
                     <p id="artist-name"><a>Mac Miller</a></p>
                 </div>
                 <div id="artist">
-                    <img src="./avatar_icons/oliver_francis.jpg" alt="Avatar" class="avatar">
+                    <img src="./avatar_icons/oliver_francis.jpg" alt="OF" class="avatar">
                     <p id="artist-name"><a>Oliver Francis</a></p>
                 </div>
             </div>
         </div>
+        <div id="main">
+            <a class="moving-button" href="#" id="main-page" onclick="mainPage()">Artist Page</a>
+            <a class="moving-button" href="#" id="community-page" onclick="communityPage()">Community Page</a>
+            <a href="#" id="new-post" onclick="newPost()"><i class="fa fa-plus"></i></a>
+            <div id="post-container">
+                <div id="post">
+                    <p id="post-author">@Atlas</p>
+                    <p id="post-content">Rumor has it @MacMiller has an unreleased album that ariana grande is in possesion of.</p>
+                    <br id="post-break">
+                    <p id="post-timecode">12:03AM 6/6/19</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <p>Copyright 2019 Titan Coding, LLC</p>
+        </div>
     </div>
 </body>
+    <script src="./javascript/pageChange.js"></script>
+    <script src="./javascript/newPost.js"></script>
 </html>
