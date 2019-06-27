@@ -40,3 +40,61 @@
 ::-webkit-scrollbar-button {
     background: whitesmoke;
 }
+
+
+::-moz-scrollbar {
+    width: 8px;
+}
+
+::-moz-scrollbar-track {
+    background-color: #DDDDDD;
+    border-radius: 4px;
+    height: 90%;
+}
+
+::-moz-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #777777;
+}
+
+::-moz-scrollbar-button {
+    background: whitesmoke;
+}
+
+::-o-scrollbar {
+    width: 8px;
+}
+
+::-o-scrollbar-track {
+    background-color: #DDDDDD;
+    border-radius: 4px;
+    height: 90%;
+}
+
+::-o-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #777777;
+}
+
+::-o-scrollbar-button {
+    background: whitesmoke;
+}
+
+::-ms-scrollbar {
+    width: 8px;
+}
+
+::-ms-scrollbar-track {
+    background-color: #DDDDDD;
+    border-radius: 4px;
+    height: 90%;
+}
+
+::-ms-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #777777;
+}
+
+::-ms-scrollbar-button {
+    background: whitesmoke;
+}
