@@ -8,13 +8,13 @@ function newPost() {
     br.setAttribute('id', 'post-break')
     div.appendChild(br)
 
-    var theAuthor = "@Atlas"
+    var theAuthor = prompt('What is your @?')
     var author = document.createElement('p')
-    author.innerHTML = theAuthor
+    author.innerHTML = '@' + theAuthor
     author.setAttribute('id', 'post-author')
     div.appendChild(author)
 
-    var theContent = "Content"
+    var theContent = prompt('What would you like to post?')
     var content = document.createElement('p')
     content.innerHTML = theContent
     content.setAttribute('id', 'post-content')
